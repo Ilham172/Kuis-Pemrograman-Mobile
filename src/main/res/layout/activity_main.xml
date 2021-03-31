@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_activity_main_first_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Kuis Pemrograman Mobile"
+        android:textSize="48dp" />
+
+    <Button
+        android:id="@+id/btn_activity_main_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Biodata"
+        android:onClick="Biodata"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Biodata"
+            app:backgroundTint="#00BCD4"
+            app:icon="@android:drawable/ic_menu_mapmode"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="50dp"
+            android:layout_gravity=""
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:onClick="Biodata"
+            app:backgroundTint="#00BCD4"
+            app:icon="@android:drawable/sym_action_chat"
+            app:iconGravity="textStart"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity=""
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Biodata"
+            app:backgroundTint="#00BCD4"
+            app:icon="@android:drawable/ic_lock_power_off"
+            app:iconGravity="textStart"/>
+
+    </LinearLayout>
+
+</LinearLayout>
